@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Generator</title>
     <link rel="stylesheet" href="style.css" />
 
@@ -11,7 +12,7 @@
   <body>
     <div class="container">
       <main>
-        <form>
+        <form id="textGenerator">
           <input
             class="introductions"
             type="text"
@@ -23,9 +24,7 @@
           <input class="button" type="submit" />
         </form>
         <br />
-        <div class="text">
-          The World is beautiful and you can experience a lot of experiences
-        </div>
+        <div class="text" id="text"></div>
         <br />
       </main>
     </div>
